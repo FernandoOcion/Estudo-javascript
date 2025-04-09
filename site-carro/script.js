@@ -11,7 +11,7 @@ let lastPosition = items.length-1
 
 
 nextButton.onclick = () => {
-
+    let itemOld = container.querySelector(".list .item.active")
 }
 
 
