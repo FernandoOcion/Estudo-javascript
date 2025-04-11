@@ -13,6 +13,8 @@ let lastPosition = items.length-1
 nextButton.onclick = () => {
     let itemOld = container.querySelector(".list .item.active")
     itemOld.classList.remove("active")
+
+    active = active + 1 > lastPosition
 }
 
 
